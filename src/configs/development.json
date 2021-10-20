@@ -1,0 +1,17 @@
+{
+    "context": {
+      "application": {
+        "port": 3000
+      },
+      "databases": {
+        "mysql":  {
+          "host": "localhost",
+          "port": "3306",
+          "database": "REST_API",
+          "username": "root",
+          "password": "m16s97aa"
+        }
+      },
+      "log": {}
+    }
+  }
