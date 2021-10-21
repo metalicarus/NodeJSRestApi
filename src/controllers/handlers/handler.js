@@ -1,2 +1,3 @@
-const handle = fn => (req, res, next) => Promise.resolve(fn(req, res, next)).catch(next)
-module.exports = handle
+const handle = fn => (req, res, next) => Promise.resolve(fn(req, res, next)).catch(next);
+
+module.exports = handle;

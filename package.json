@@ -5,7 +5,8 @@
   "main": "./bin/api.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon ./bin/api.js",
+    "start": "node ./bin/api.js",
+    "dev": "nodemon --ignore 'sessions/' ./bin/api.js",
     "migration": "node ./bin/api.js"
   },
   "author": "@metalicarus",

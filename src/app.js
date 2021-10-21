@@ -5,6 +5,6 @@ const exception = require('./controllers/handlers/exception');
 
 app.use(express.json({limit: '5mb'}));
 app.use(router);
-app.use(exception);
+app.use(exception.exception);
 
 module.exports = app;
